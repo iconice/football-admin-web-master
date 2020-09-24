@@ -1,0 +1,32 @@
+@import '../../../../assets/styles/index.scss';
+
+.sider {
+  position: fixed;
+  left: 0;
+  top: 64px;
+  overflow: auto;
+  min-height: 100vh;
+  width: 200px;
+
+  .logo {
+    line-height: 64px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    @include no-wrap();
+  }
+
+  // antd menu样式覆盖
+  .menu {
+    overflow-y: auto;
+    max-height: calc(100vh - 48px - 64px - 64px);
+    // 滚动条隐藏
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+  }
+
+  // 滚动条隐藏
+  .menu::-webkit-scrollbar {
+    width: 0 !important;
+  }
+}

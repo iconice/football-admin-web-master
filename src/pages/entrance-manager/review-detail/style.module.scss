@@ -1,0 +1,13 @@
+@import '../../../assets/styles';
+
+.reviewDetail {
+  padding: 16px;
+  // background-color: #fff;
+  min-height: 500px;
+
+  .checkBox {
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    padding: 40px 0;
+  }
+}

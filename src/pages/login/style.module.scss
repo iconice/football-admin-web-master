@@ -1,0 +1,27 @@
+@import '../../assets//styles/index.scss';
+
+.login {
+  width: 100%;
+  height: 100vh;
+
+  .content {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: url('./login_bg.jpg') center top no-repeat;
+
+    .form {
+      position: absolute;
+      right: 130px;
+      top: 200px;
+      width: 320px;
+      padding: 26px 26px 0;
+      border-radius: 6px;
+    }
+  }
+
+  .word {
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+  }
+}
